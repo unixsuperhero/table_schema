@@ -1,1 +1,1 @@
-### Hospital  * hospital id (PK)* name### Department* department id (pk)* name* hospital id (fk)### Floor* floor id (pk)* floor number* department id (fk)
+### Hospital  * hospital id (PK)* name### Department* department id (pk)* name* hospital id (fk)### Floor* floor id (pk)* floor number* department id (fk)### Room* room id (pk)* room number* capacity* floor id (fk)### Bed* bed id (pk)* bed number* room id (fk)### patient* patient id (pk)* first name* last name* bed id (fk)
